@@ -5,8 +5,10 @@ return [`${chocolate}`, ...chocolateBars]
 }
 addElementToBeginningOfArray(chocolateBars, 'butter finger');
 
-function destructivelyAddElementToBeginningOfArray() {
-return (chocolateBars.unshift('hershey')
+function destructivelyAddElementToBeginningOfArray(chocolateBars, chocolate) {
+return (chocolateBars.unshift(chocolate))
+}
+destructivelyAddElementToBeginningOfArray('hershey')
 }
 
 function addElementToEndOfArray(chocolateBars, chocolate){

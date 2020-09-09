@@ -18,3 +18,7 @@ addElementToEndOfArray('milky way');
 function destructivelyAddElementToEndOfArray(chocolateBars, chocolate) {
 return (chocolateBars.push(chocolate))
 }
+
+function accessElementInArray(number){
+  return console.log(chocolateBars[number])
+}

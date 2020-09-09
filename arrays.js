@@ -8,8 +8,7 @@ addElementToBeginningOfArray(chocolateBars, 'butter finger');
 function destructivelyAddElementToBeginningOfArray(chocolateBars, chocolate) {
 return (chocolateBars.unshift(chocolate))
 }
-destructivelyAddElementToBeginningOfArray('hershey')
-}
+destructivelyAddElementToBeginningOfArray('hershey');
 
 function addElementToEndOfArray(chocolateBars, chocolate){
 return [...chocolateBars, `${chocolate}`]

@@ -12,5 +12,3 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 funcation accessElementInArray(array, index) {
   return array[index]
 }
-
-

@@ -9,6 +9,3 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array
 }
 
-funcation accessElementInArray(array, index) {
-  return array[index]
-}
